@@ -13,5 +13,3 @@ export const crearConductor = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
-
-// Otros métodos como obtenerConductor, actualizarConductor, eliminarConductor pueden ser añadidos aquí
